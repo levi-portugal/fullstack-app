@@ -1,34 +1,16 @@
 {
   "alunos": [
     {
-      "nome": "Henning Summer",
-      "idade": "34",
-      "sexo": "Outros",
-      "id": 1
-    },
-    {
-      "nome": "Pedro",
-      "idade": "42",
+      "nome": "Pedro Oliveira",
+      "idade": "65",
       "sexo": "Masculino",
       "id": 2
-    },
-    {
-      "nome": "Amaro",
-      "idade": "45",
-      "sexo": "Masculino",
-      "id": 3
     },
     {
       "nome": "Sicrano",
       "idade": "47",
       "sexo": "Masculino",
       "id": 4
-    },
-    {
-      "nome": "oioioioioioii",
-      "idade": "222",
-      "sexo": "masculino",
-      "id": 5
     },
     {
       "nome": "Henning Summer",
@@ -59,6 +41,12 @@
       "idade": "11",
       "sexo": "masculino",
       "id": 10
+    },
+    {
+      "nome": "Jose Almeida",
+      "idade": "45",
+      "sexo": "Masculino",
+      "id": 12
     }
   ],
   "disciplinas": [
