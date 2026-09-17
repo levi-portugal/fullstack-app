@@ -1,10 +1,16 @@
-let urlAlunos = "https://curly-space-chainsaw-p4v44r9rx65f6jr6-3000.app.github.dev/alunos"
+let urlAlunos = "https://fantastic-palm-tree-xr57rw76x6rg3gr4-3000.app.github.dev/alunos"
+$("#loading").hide()
 
 $("#form-aluno").hide()
 
 function mostrarForm() {
-    $("#form-aluno").show()
-    $("#table-aluno").hide()
+    $("#loading").show()
+    
+    setTimeout(() => {
+        $("#form-aluno").show()
+        $("#table-aluno").hide()
+        $("#loading").hide()
+    }, 2000)
 }
 
 function ocultarForm() {
@@ -95,7 +101,7 @@ function deletarAluno(id) {
     fetch(urlAlunos + "/" + id, {
         method: "DELETE",
         headers: { 'Content-Type': 'application/json' }
-    }).then((dados)=>{
+    }).then((dados) => {
         listarAlunos()
     })
 }

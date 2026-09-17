@@ -4,7 +4,7 @@
   "description": "Aplicação usando template do Materialize",
   "main": "index.js",
   "scripts": {
-    "dev": "json-server --watch db.json"
+    "dev": "json-server --watch back/db.json"
   },
   "repository": {
     "type": "git",

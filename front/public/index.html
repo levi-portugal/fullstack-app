@@ -27,6 +27,24 @@
     </div>
   </nav>
 
+  <div id="loading" class="container center">
+
+
+    <div class="preloader-wrapper big active">
+      <div class="spinner-layer spinner-blue-only">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div>
+        <div class="gap-patch">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
 
   <div id="table-aluno" class="container">
@@ -80,13 +98,16 @@
           </div>
 
         </div>
-        <button id="btn-salvar" onclick="salvarAluno()" class="btn waves-effect waves-light" type="button" name="action">Salvar
+        <button id="btn-salvar" onclick="salvarAluno()" class="btn waves-effect waves-light" type="button"
+          name="action">Salvar
           <i class="material-icons right">send</i>
         </button>
-        <button id="btn-atualizar" onclick="atualizarAluno()" class="btn waves-effect waves-light" type="button" name="action">Atualizar
+        <button id="btn-atualizar" onclick="atualizarAluno()" class="btn waves-effect waves-light" type="button"
+          name="action">Atualizar
           <i class="material-icons right">send</i>
         </button>
-        <button onclick="ocultarForm()" class="btn waves-effect waves-light pink darken-1" type="button" name="action">Voltar
+        <button onclick="ocultarForm()" class="btn waves-effect waves-light pink darken-1" type="button"
+          name="action">Voltar
           <i class="material-icons right">arrow_back</i>
         </button>
       </form>
